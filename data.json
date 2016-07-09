@@ -1,0 +1,266 @@
+[
+	{
+		"name": "Jon",
+		"nameBelow": true,
+		"nameLeft": 5,
+		"beliefs": {
+			"social": {
+				"marriage": [1, "Recognizes importance of both duty and love"],
+				"sex":      [1, "Supports NW restrictions, but did bend the rules"],
+				"religion": [2, "No issues with anyone's religious beliefs"],
+				"culture":  [2, "Understands that wildling culture is equally valid"],
+				"maesters": [2, "Deeply respected Maester Aemon"]
+			},
+			"crown": {
+				"weakness": [0, "Strongly believes in defending the defenseless"],
+				"nobility": [0, "Believes in the virtues of a meritocracy with democratic elections"],
+				"power":    [0, "Supports inclusive decision making and delegating responsibilities"],
+				"enemies":  [0, "Welcomes enemies into the fold and trusts them even to his own peril"],
+				"honor":    [1, "Occasionally prickly about honor, but more often pragmatic about it"]
+			}
+		}
+	},
+	{
+		"name": "Daenerys",
+		"beliefs": {
+			"social": {
+				"marriage": [1, "Reluctantly marries for political reasons"],
+				"sex":      [2, "Gets it on in every which way"],
+				"religion": [2, "No issues with anyone's religious beliefs"],
+				"culture":  [1, "Integrates partially, but still aggressively pushes her vision of a \"new world\""],
+				"maesters": [1, "Not enough experience with maesters to form a judgment"]
+			},
+			"crown": {
+				"weakness": [0, "Strongly believes in defending the defenseless"],
+				"nobility": [2, "Strongly believes in Targaryen right to rule through royal blood"],
+				"power":    [2, "Acts unilaterally and usually does not heed counsel"],
+				"enemies":  [2, "Tortures and murders defeated enemies publicly"],
+				"honor":    [1, "Uneasy about prospect of victory with an army of uncontrollable mercenaries"]
+			}
+		}
+	},
+	{
+		"name": "Tyrion",
+		"nameLeft": -27,
+		"nameTop": 14,
+		"beliefs": {
+			"social": {
+				"marriage": [1, "Pragmatic about marriage"],
+				"sex":      [2, "Has a reputation for sleeping with prostitutes like it's his job"],
+				"religion": [2, "No issues with anyone's religious beliefs"],
+				"culture":  [2, "Well-read, respects other cultures"],
+				"maesters": [1, "Admires their learning but shows little deference"]
+			},
+			"crown": {
+				"weakness": [1, "Sympathetic but not proactive"],
+				"nobility": [1, "No strong leanings either way"],
+				"power":    [0, "Confident enough in his abilities to be comfortable with a balance of power"],
+				"enemies":  [0, "Willing to bury the hatchet if it's in his best interest"],
+				"honor":    [1, "Will sacrifice some honor to win, but still has a conscience"]
+			}
+		}
+	},
+	{
+		"name": "Tywin",
+		"beliefs": {
+			"social": {
+				"marriage": [0, "Marriage is about strengthening the family politically"],
+				"sex":      [0, "Hypocritical hardliner"],
+				"religion": [1, "No issues with anyone's religious beliefs"],
+				"culture":  [1, "No issues with other cultures"],
+				"maesters": [0, "Makes use of Pycelle, but shows no indications of showing respect or deference"]
+			},
+			"crown": {
+				"weakness": [2, "Not sympathetic at all"],
+				"nobility": [1, "Pragmatic about power"],
+				"power":    [1, "Somewhat comfortable with delegating authority"],
+				"enemies":  [2, "Sometimes makes vicious examples of his enemies (e.g. House Reyne)"],
+				"honor":    [2, "Winning is everything"]
+			}
+		}
+	},
+	{
+		"name": "Stannis",
+		"nameBelow": true,
+		"nameLeft": -15,
+		"beliefs": {
+			"social": {
+				"marriage": [0, "Traditional views on marriage, little love for his wife"],
+				"sex":      [1, "Has a mistress, but not much else to establish a position"],
+				"religion": [0, "Religious extremist who burns septs, heart trees, and nonbelievers"],
+				"culture":  [0, "Not known for his empathy or understanding in general"],
+				"maesters": [0, "Completely rejected his maester's counsel and humiliated him excessively"]
+			},
+			"crown": {
+				"weakness": [1, "Will do good things (e.g. defending the Wall) if it advances his own position"],
+				"nobility": [2, "Strongly believes he is the rightful ruler, even with almost no popular support"],
+				"power":    [2, "Keeps his cards close to the chest and avoids delegating authority"],
+				"enemies":  [1, "Tough but fair with those who cross him, not emotionally vindictive"],
+				"honor":    [2, "Dark magic and kinslaying are acceptable if they put him on the throne"]
+			}
+		}
+	},
+	{
+		"name": "Robert",
+		"nameBelow": true,
+		"nameLeft": 10,
+		"beliefs": {
+			"social": {
+				"marriage": [1, "Still wishes he could have had Lyanna, even though Cersei made more political sense"],
+				"sex":      [1, "Slept around a fair bit, but not much else to indicate his views"],
+				"religion": [2, "Drinking buddies with Thoros of Myr"],
+				"culture":  [1, "Got along fine with Jalabhar Xho, but not closely"],
+				"maesters": [1, "Completely rejected his maester's counsel and humiliated him excessively"]
+			},
+			"crown": {
+				"weakness": [1, "Not particularly concerned either way"],
+				"nobility": [1, "Usurped the throne, but recognized importance of emphasizing Targaryen ties"],
+				"power":    [0, "Delegated heavily and kept balance of power among the houses"],
+				"enemies":  [0, "Pattern of being lenient-to-generous with enemies after defeating them"],
+				"honor":    [2, "Seemed truly baffled by Ned's emphasis on honor"]
+			}
+		}
+	},
+	{
+		"name": "Cersei",
+		"nameLeft": 15,
+		"beliefs": {
+			"social": {
+				"marriage": [0, "Marriage is about increasing your station and power"],
+				"sex":      [1, "Progressive views on incest, but uses homophobia as a weapon"],
+				"religion": [1, "Uses religion as a weapon when convenient, but generally doesn't care"],
+				"culture":  [0, "Not known for being tolerant or open-minded"],
+				"maesters": [0, "Views maesters with suspicion"]
+			},
+			"crown": {
+				"weakness": [2, "Believes weakness is repulsive"],
+				"nobility": [2, "Views the masses as foolish and disgusting"],
+				"power":    [2, "Paranoid about anyone else having any power"],
+				"enemies":  [2, "Seeks total destruction of her enemies for minor slights"],
+				"honor":    [2, "No real concept of honor"]
+			}
+		}
+	},
+	{
+		"name": "High Sparrow",
+		"nameBelow": true,
+		"beliefs": {
+			"social": {
+				"marriage": [2, "Preaches against vanity, greed, and ambition, core drivers of political marriage"],
+				"sex":      [0, "Sexuality is a source of power and control"],
+				"religion": [0, "Religion is a source of power and control"],
+				"culture":  [0, "Extremely closed-minded"],
+				"maesters": [1, "No strong indications either way"]
+			},
+			"crown": {
+				"weakness": [1, "They are, but only for political purposes of building a movement"],
+				"nobility": [1, "Recognizes importance of royal blood as a tool to sway the masses"],
+				"power":    [0, "Promotes a decentralized, loosely controlled theocracy"],
+				"enemies":  [1, "Seeks to strip them of lands and titles or use them as tools"],
+				"honor":    [0, "Patient and focused on appearance of honor and piety"]
+			}
+		}
+	},
+	{
+		"name": "Jaime",
+		"nameLeft": 27,
+		"nameTop": 14,
+		"beliefs": {
+			"social": {
+				"marriage": [1, "Dismissive toward marriage in general and not politically ambitious"],
+				"sex":      [2, "Progressive views on incest"],
+				"religion": [1, "Doesn't particularly care about the gods"],
+				"culture":  [1, "Doesn't particularly care about other cultures"],
+				"maesters": [1, "Sees maesters as ordinary men to be judged individually"]
+			},
+			"crown": {
+				"weakness": [0, "Talks tough, but secretly has a soft spot for the defenseless"],
+				"nobility": [0, "Believes power is power"],
+				"power":    [2, "Leads boldly, doesn't delegate very much"],
+				"enemies":  [1, "Prepared to use any means at his disposal, but prefers peaceful resolutions"],
+				"honor":    [2, "Historically not much regard for his vows"]
+			}
+		}
+	},
+	{
+		"name": "Ned",
+		"nameLeft": 10,
+		"beliefs": {
+			"social": {
+				"marriage": [0, "Traditionalist, married Catelyn because it was his duty as Brandon's brother"],
+				"sex":      [1, "No real indications either way"],
+				"religion": [2, "Built a sept for his wife to worship the Seven"],
+				"culture":  [1, "No real indications either way"],
+				"maesters": [2, "Trusted his maester, took his counsel, and treated him with respect"]
+			},
+			"crown": {
+				"weakness": [0, "Instilled a sense of duty in his children to protect the weak"],
+				"nobility": [0, "Supported Robert's rebellion against the throne"],
+				"power":    [0, "Advocate for keeping any one house from becoming overly powerful"],
+				"enemies":  [0, "Opts for peaceful resolutions wherever possible, treated Theon very well"],
+				"honor":    [0, "Honor is everything"]
+			}
+		}
+	},
+	{
+		"name": "Joffrey",
+		"nameLeft": 15,
+		"beliefs": {
+			"social": {
+				"marriage": [0, "All signs point to him being a sociopath incapable of love"],
+				"sex":      [0, "Vowed to outlaw \"perversions\" and punish them harshly"],
+				"religion": [0, "Irreligious, but would probably relish the excuse to kill someone"],
+				"culture":  [0, "Total lack of empathy or cultural appreciation"],
+				"maesters": [0, "Dismissive and disrespectful toward Pycelle and his office"]
+			},
+			"crown": {
+				"weakness": [2, "\"Everyone is mine to torment!\""],
+				"nobility": [2, "\"I am the king!\""],
+				"power":    [2, "Believes the Crown should have unlimited authority"],
+				"enemies":  [2, "Kills his enemies even after they have surrendered and sworn fealty to him"],
+				"honor":    [2, "No concept of honor"]
+			}
+		}
+	},
+	{
+		"name": "Aegon I",
+		"nameLeft": -18,
+		"beliefs": {
+			"social": {
+				"marriage": [1, "Neither, saw marriage as primarily about keeping the bloodline pure and the House unified"],
+				"sex":      [1, "Incest okay to keep bloodline pure, but only for Targaryens"],
+				"religion": [2, "Adopted the dominant religion of Westeros as his own, allowed religious freedom"],
+				"culture":  [2, "Readily fused Westerosi customs with his own"],
+				"maesters": [1, "No strong indications either way"]
+			},
+			"crown": {
+				"weakness": [2, "Saw the weakness of his neighbors as an opportunity to be violently exploited"],
+				"nobility": [2, "Strongly believed in Valyrian exceptionalism and right to rule"],
+				"power":    [2, "Bound the seven kingdoms into a single political entity"],
+				"enemies":  [1, "Killed some, pardoned others, depending on the circumstances"],
+				"honor":    [2, "Honor through conquest and a strong legacy"]
+			}
+		}
+	},
+	{
+		"name": "Renly",
+		"nameBelow": true,
+		"nameLeft": 20,
+		"beliefs": {
+			"social": {
+				"marriage": [0, "Viewed marriage as exclusively political"],
+				"sex":      [2, "In a sexual minority and unlikely to oppress anyone"],
+				"religion": [2, "Used religious symbolism in his claim, but very likely to maintain status quo"],
+				"culture":  [1, "No strong indications either way"],
+				"maesters": [0, "Dismissive toward maesters and learning in general"]
+			},
+			"crown": {
+				"weakness": [1, "No strong indications either way"],
+				"nobility": [0, "Believes that whoever has the most popular support has the right to rule"],
+				"power":    [1, "Peace through strength, but would likely also seek balance among the great houses"],
+				"enemies":  [1, "Would kill the Lannisters, but allow Robb to retain title of King in the North"],
+				"honor":    [2, "Willing to imprison and potentially execute Cersei's children to assume control"]
+			}
+		}
+	}
+]

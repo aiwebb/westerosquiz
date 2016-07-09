@@ -1,0 +1,70 @@
+body {
+	padding: 20px;
+	overflow-y: scroll;
+}
+
+.info-button {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 1000;
+}
+
+.options {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.options > label > input {
+	margin-top: 0;
+}
+
+.options > label > i {
+	padding-right: 5px;
+}
+
+canvas {
+	/*border: 1px solid black;*/
+}
+
+.canvas-container, #questions-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rationale {
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+#rationale ul {
+	padding-left: 5px;
+}
+
+#rationale li {
+	list-style-type: none;
+}
+
+.rationale-question {
+	text-transform: uppercase;
+	color: #666;
+	font-weight: bold;
+	font-style: italic;
+	width: 70px;
+	display: inline-block;
+	font-size: 9pt;
+	text-align: right;
+	margin-right: 7px;
+}
+
+.rationale-answer {
+	width: 65px;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+#submit {
+	margin-top: 10px;
+	margin-left: 50px;
+}
